@@ -212,7 +212,7 @@ figcaption {
 
 .button {
   padding: 12px 25px;
-  border-radius: 0px;
+  border-radius: 10px;
   background-color: #1a1b1f;
   -webkit-transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
   transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
@@ -465,7 +465,7 @@ figcaption {
 .navigation-item.w--current {
   opacity: 1;
   color: #1a1b1f;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 .navigation-item.w--current:hover {
@@ -572,8 +572,10 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 620px;
-  margin-bottom: 100px;
+  height: 500px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -584,7 +586,7 @@ figcaption {
   align-items: center;
   background-color: #f4f4f4;
   background-image: url(https://3dmodelsworld.com/wp-content/uploads/edd/2017/03/auburn-stadium-3d-model-college-1.jpg);
-  background-position: 0px 0px;
+  background-position: 10px 10px;
   background-size: cover;
   color: #fff;
 }
