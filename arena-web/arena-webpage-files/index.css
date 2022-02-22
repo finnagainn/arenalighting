@@ -639,11 +639,24 @@ figcaption {
   background-color: rgba(217, 234, 220, 0.957);
 }
 
-.song-time {
+.volume {
   margin-left: auto;
   margin-right: auto;
   width: 15%;
   background-color: rgba(217, 234, 220, 0.957);
+}
+
+.song-time.current {
+  margin-left: 10px;
+  width: 15%;
+  background-color: rgba(217, 234, 220, 0.957);
+}
+
+.song-time.length {
+  margin-right: 10px;
+  width: 15%;
+  background-color: rgba(217, 234, 220, 0.957);
+  align-content: right;
 }
 
 .middle {
@@ -655,6 +668,7 @@ figcaption {
   background-color: #555;
   border-radius: 25px;
   text-align: center;
+  display: flex;
 
 }
 
