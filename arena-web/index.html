@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <!-- saved from url=(0045)https://business-starter-template.webflow.io/ -->
-<html data-wf-domain="business-starter-template.webflow.io" data-wf-page="5c6eb5400253230ce6de2bd7" data-wf-site="5c6eb5400253230156de2bd6" class="w-mod-js wf-montserrat-n7-active wf-montserrat-n9-active wf-montserrat-n1-active wf-montserrat-n2-active wf-montserrat-n5-active wf-montserrat-n4-active wf-montserrat-n8-active wf-montserrat-n3-active wf-montserrat-n6-active wf-montserrat-i9-active wf-montserrat-i7-active wf-montserrat-i5-active wf-montserrat-i2-active wf-montserrat-i3-active wf-montserrat-i4-active wf-montserrat-i6-active wf-montserrat-i8-active wf-montserrat-i1-active wf-active">
+<html>
     <head>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/6fe852a23e.js" crossorigin="anonymous"></script>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Arena Lighting Demo</title>
         <meta content="Business - Webflow HTML website template" property="og:title">
@@ -81,15 +83,25 @@
 
                 <div class="container-right">
                     <div class="top">
-                       <div class="start-stop">Start Stop</div>
-                       <div class="volume">Vol</div> 
-                       <div class="song-name">thisisthesongname.mp3</div>
-                       
+                       <div class="start-stop">
+                        <div id="play-button">
+                            <img class="svg play" src="./arena-webpage-files/images/play.svg" width="25px" height="25px">
+                        </div>
+                        
+                       <div id="pause-button">
+                         <img class="svg pause" src="./arena-webpage-files/images/pause.svg" width="25px" height="25px">
+                       </div>
+
+                        </div>
+                       <div class="volume">
+
+                        </div> 
+                       <div class="song-name">Auburn Fight Song - War Eagle</div>
                                             
                     </div>
                     <div class="middle">
                         <div class="song-time current">0:00</div> 
-                        song progress bar
+                        <img class="svg line" src="./arena-webpage-files/images/line.svg" width="500px" height="20px">
                         <div class="song-time length">3:00</div> 
                     </div>
                     <div class="bottom">

@@ -626,17 +626,25 @@ figcaption {
 }
 
 .start-stop {
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   width: 15%;
-  background-color: rgba(217, 234, 220, 0.957);
+  
+  display: flex;
+  grid-column-gap: 20px;
+
 }
+
+svg {
+  fill: white;
+}
+
 
 .song-name {
   margin-left: auto;
   margin-right: auto;
   width: 60%;
-  background-color: rgba(217, 234, 220, 0.957);
+  color: white;
+  font-weight: bold;
 }
 
 .volume {
@@ -649,14 +657,16 @@ figcaption {
 .song-time.current {
   margin-left: 10px;
   width: 15%;
-  background-color: rgba(217, 234, 220, 0.957);
+  color: white;
+  font-weight: bold;
 }
 
 .song-time.length {
   margin-right: 10px;
   width: 15%;
-  background-color: rgba(217, 234, 220, 0.957);
   align-content: right;
+  color: white;
+  font-weight: bold;
 }
 
 .middle {
@@ -682,6 +692,8 @@ figcaption {
   background-color: #555;
   border-radius: 25px;
   text-align: center;
+  color: white;
+  font-weight: bold;
 
 }
 
