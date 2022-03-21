@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{EC1EAE8A-B894-0870-6A7A-19EB7C2BA92C}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ColorClick.cs">
+    <Files>
+      <File FileName="Assets/ColorClick.cs" Line="33" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="stadium" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2124ecc9-401d-4f22-9e85-b42785ee2304" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
