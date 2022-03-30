@@ -1,0 +1,245 @@
+*:not([class^="fa"]) {
+    font-family: sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  text-decoration: underline;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.github {
+    float: right;
+}
+
+.unity-container {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 75%;
+    height: 300px;
+
+    background-color: gray;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    
+
+}
+
+.container {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    background-color: #333;
+    border-radius: 25px;
+  }
+  
+  .container-right {
+    width: 60%;
+    height: 100%;
+  
+  }
+  
+  .container-left {
+    width: 40%;
+    height: 100%;
+  }
+  
+  .top {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 20%;
+    background-color: #555;
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+  
+  }
+  
+  .start-stop {
+    margin-left: 30px;
+    width: 15%;
+    display: flex;
+    grid-column-gap: 20px;
+  
+  }
+  
+  .fas {
+      color: white;
+  }
+
+  .fa-play, .fa-pause {
+      margin-left: 5x;
+      margin-right: 5px;
+  }
+  
+  
+  .song-name {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .volume {
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+  }
+  
+  .song-time.current {
+    margin-left: 10px;
+    width: 15%;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .song-time.length {
+    margin-right: 10px;
+    width: 15%;
+    align-content: right;
+    color: white;
+    font-weight: bold;
+  }
+
+  #song-bar {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 3px;
+    width: 80%;
+    border-radius: 3px;
+    background-color: white;
+  }
+  
+  .middle {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 30%;
+    background-color: #555;
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+  
+  }
+  
+  .bottom {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 70px;
+    background-color: #555;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  
+  }
+
+
+/* Color Picker Wheel Start */
+.wrap { /*control position of picker here */
+    min-height: 25vh;
+    max-width: 360px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 50px;
+    padding-bottom: 10px;
+  }
+  
+  .half {
+      width: 50%;
+      padding: 32px 0;
+  }
+  
+  
+  .title {
+    font-family: sans-serif;
+    line-height: 24px;
+    display: block;
+   
+    color: #fff;
+    font-weight: bold;
+  
+  }
+  
+  .readout {
+    margin-top: 32px;
+    line-height: 180%;
+  }
+  
+  #values {
+   font-family: sans-serif;
+    line-height: 180%;
+    color: white;
+  
+  }
+
+  /* Color Picker Wheel End */
