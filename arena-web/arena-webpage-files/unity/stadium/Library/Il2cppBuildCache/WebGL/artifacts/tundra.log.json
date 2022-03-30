@@ -2,8 +2,5 @@
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"all_tundra_nodes","enqueuedNodeIndex":0}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteResponseFile artifacts/rsp/10883168062194141499.rsp","enqueuedNodeIndex":1,"enqueueingNodeAnnotation":"all_tundra_nodes","enqueueingNodeIndex":0}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"Il2Cpp /Users/koffeeku/seniordesign/arenalighting/arena-web/arena-webpage-files/unity/stadium/Library/Il2cppBuildCache/WebGL/Native/build.bc","enqueuedNodeIndex":2,"enqueueingNodeAnnotation":"all_tundra_nodes","enqueueingNodeIndex":0}
-{"msg":"newNode","annotation":"WriteResponseFile artifacts/rsp/10883168062194141499.rsp","index":1}
-{"msg":"noderesult","annotation":"WriteResponseFile artifacts/rsp/10883168062194141499.rsp","index":1,"exitcode":0}
-{"msg":"newNode","annotation":"Il2Cpp /Users/koffeeku/seniordesign/arenalighting/arena-web/arena-webpage-files/unity/stadium/Library/Il2cppBuildCache/WebGL/Native/build.bc","index":2}
-{"msg":"noderesult","annotation":"Il2Cpp /Users/koffeeku/seniordesign/arenalighting/arena-web/arena-webpage-files/unity/stadium/Library/Il2cppBuildCache/WebGL/Native/build.bc","index":2,"exitcode":0}
-{"msg":"newNode","annotation":"all_tundra_nodes","index":0}
+{"msg":"nodeRetryBuild","annotation":"Il2Cpp /Users/koffeeku/seniordesign/arenalighting/arena-web/arena-webpage-files/unity/stadium/Library/Il2cppBuildCache/WebGL/Native/build.bc","index":2}
+{"msg":"noderesult","annotation":"Il2Cpp /Users/koffeeku/seniordesign/arenalighting/arena-web/arena-webpage-files/unity/stadium/Library/Il2cppBuildCache/WebGL/Native/build.bc","index":2,"exitcode":0,"stdout":"Building build.bc with EmscriptenToolChain\n\tOutput directory: /Users/koffeeku/seniordesign/arenalighting/arena-web/arena-webpage-files/unity/stadium/Library/Il2cppBuildCache/WebGL/Native\n\tCache directory: /Users/koffeeku/seniordesign/arenalighting/arena-web/arena-webpage-files/unity/stadium/Library/il2cpp_cache\nObjectFiles: 224 of which compiled: 0\nTotal compilation time: 223 milliseconds.\nResponse file: /var/folders/bq/zd1k5c_94ys9_tsb14wnp45m0000gn/T/_820210982/response.rsp\nCleaned up 0 object files."}

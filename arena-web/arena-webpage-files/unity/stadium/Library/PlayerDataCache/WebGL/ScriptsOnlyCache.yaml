@@ -1290,4 +1290,5 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Top View Populated - Night.unity
-  playerPath: /Users/koffeeku/seniordesign/arenalighting/arena-web/arena-webpage-files/unity/stadium/stadium-alpha
+  playerPath: /Users/koffeeku/seniordesign/arenalighting/arena-web/arena-webpage-files/unity/stadium/DELETE
+    BEFORE PUSH/stadium-alpha
